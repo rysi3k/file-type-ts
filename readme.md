@@ -1,4 +1,11 @@
-# file-type
+# file-type-ts
+
+The credit for this is due to Sindre Sorhus and his great project: [file-type](https://www.npmjs.com/package/file-type)
+
+This is forked from version 17.1.1 of his library. All I've done is trim out a few things that I didn't need and convert it to TypeScript.
+
+````
+
 
 > Detect the file type of a Buffer/Uint8Array/ArrayBuffer
 
@@ -502,3 +509,4 @@ The maintainers of file-type and thousands of other packages are working with Ti
 - [Mikael Finstad](https://github.com/mifi)
 - [Ben Brook](https://github.com/bencmbrook)
 - [Borewit](https://github.com/Borewit)
+````
