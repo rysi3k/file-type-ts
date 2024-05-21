@@ -1,6 +1,6 @@
 {
   "name": "file-type-ts",
-  "version": "0.0.1",
+  "version": "1.0.0-webdev.3",
   "description": "Detect the file type of a Buffer. Fork from sindresorhus/file-type. Trimmed down a little and ported over to TypeScript.",
   "license": "MIT",
   "repository": "jasonbyrne/file-type-ts",
@@ -9,7 +9,6 @@
     "email": "jasonbyrne662@gmail.com",
     "url": "https://www.jasonbyrne.net"
   },
-  "type": "module",
   "main": "dist/index.js",
   "files": [
     "dist/",
@@ -32,13 +31,17 @@
   ],
   "dependencies": {
     "readable-web-to-node-stream": "^3.0.2",
-    "strtok3": "^7.0.0-alpha.8",
-    "token-types": "^5.0.0-alpha.2"
+    "strtok3": "6.3.0",
+    "token-types": "4.2.1"
   },
   "devDependencies": {
     "@tokenizer/token": "^0.3.0",
     "@types/node": "^16.11.21",
     "rimraf": "^3.0.2",
     "typescript": "^4.5.2"
-  }
+  },
+ "resolutions": {
+      "peek-readable": "^4.0.0"
+   }
+
 }
